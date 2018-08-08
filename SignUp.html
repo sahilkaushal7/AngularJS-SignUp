@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Signup Page</title>
+  </head>
+
+  <body ng-app="myModule" ng-controller="mySignUpController">
+        <div class="row row1">
+            <div class="col-sm-4 left-panel">
+            </div>
+                <div class="col-sm-8 right-panel float-left">
+                <form class="form-signin">
+              <h2 class="h4 mb-3 font-weight-bold float-left text-dark">Start something new</h2>
+              <h3 class="h5 mb-3 font-weight-normal float-left mb-5 text-dark">Please Enter Information Below</h3>
+              <label for="inputUsername" class="sr-only">Username</label>
+              <input type="text" id="inputUsername" class="form-control" placeholder="Your Username" ng-model ="details.username" required autofocus><br>
+              <label for="inputEmail" class="sr-only">Email address</label>
+              <input type="email" id="inputEmail" class="form-control" placeholder="Your Email" ng-model ="details.email" required><br>
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" id="inputPassword" class="form-control" placeholder="Password" ng-model ="details.password" required><br>
+              <label for="inputrepeatPassword" class="sr-only">Password</label>
+              <input type="password" id="inputrepeatPassword" class="form-control mb-3" placeholder="Repeat Password" ng-model ="details.repeatpassword" required><br>
+              <button class="btn btn-lg btn-dark btn-block" type="submit" ng-click="onSubmitForm()">Create New Account</button>
+                    <p class="float-left mt-3 text-secondary">Forgot Password?</p>
+                    </form> 
+                </div>
+        </div>
+  </body>
+</html>

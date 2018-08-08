@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding:0px;
+}
+.left-panel{
+    background-image: url(Left.png);
+    background-size: 100% 100%;
+    width:100%;
+}
+.right-panel{
+  width:100%;
+}
+.row1{
+  min-height: -webkit-fill-available;
+}
+.container-fluid{
+  min-height: -webkit-fill-available;
+}
+.form-signin {
+  max-width: 530px;
+  padding:20px;
+  margin:auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input {
+  margin-bottom: -1px;
+  border: none;
+  width:100%;
+  border-radius:none;
+  border-bottom:1px solid lightgrey;
+}
+.form-signin button {
+  width:100%;
+}
+.card{
+			width:250px;
+			border:none;
+			box-shadow: 0 0 2px 1px #f3f3f3;
+			height: 80px;
+		}
+		.left{
+			float:right;
+			margin-right:0px;
+		}
+		.right{
+			float:left;
+		}
+		.card-body{
+		color:#c0c7ce;
+		}
